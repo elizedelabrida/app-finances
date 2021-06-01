@@ -21,7 +21,9 @@ class TransactionListAdapter(
 
     override fun getView(position: Int, view: View?, viewParent: ViewGroup?): View {
         val viewCreated =
-            LayoutInflater.from(context).inflate(R.layout.transaction_item, viewParent, false)
+            LayoutInflater.from(context)
+                .inflate(R.layout.transaction_item,
+                    viewParent, false)
         val transaction = transactions[position]
         addCategory(viewCreated, transaction)
         addDate(viewCreated, transaction)

@@ -21,19 +21,19 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/revenue"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/expense"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/summary"
-                android:textSize="20dp" />
+                android:textSize="20sp" />
 
         </LinearLayout>
 
@@ -47,7 +47,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:text="R$ 1000000,00" />
 
             <TextView
@@ -55,7 +55,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:text="R$ 10000,00" />
 
             <View
@@ -65,11 +65,11 @@
                 android:background="#848484" />
 
             <TextView
-                android:id="@+id/summary_card_summary"
+                android:id="@+id/summary_card_total"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="right"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 tools:text="R$ 1000,00" />
 
         </LinearLayout>

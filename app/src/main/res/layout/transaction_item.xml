@@ -23,7 +23,8 @@
                 android:layout_height="40dp"
                 android:layout_gravity="center"
                 android:layout_margin="10dp"
-                tools:src="@drawable/icon_transaction_item_expense" />
+                tools:src="@drawable/icon_transaction_item_expense"
+                android:contentDescription="@string/down_arrow" />
 
             <LinearLayout
                 android:layout_width="0dp"
@@ -37,9 +38,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="10dp"
-                    android:textSize="20dp"
+                    android:textSize="20sp"
                     android:textStyle="bold"
-                    tools:text="quinzecaracteres.." />
+                    tools:text="testtestestesttesttest..." />
 
                 <TextView
                     android:id="@+id/transaction_item_date"
@@ -57,11 +58,10 @@
                 android:layout_marginRight="10dp"
                 android:layout_marginBottom="10dp"
                 android:gravity="right|bottom"
-                android:textSize="20dp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 tools:text="R$ 100,00" />
 
         </LinearLayout>
-
     </androidx.cardview.widget.CardView>
 </LinearLayout>

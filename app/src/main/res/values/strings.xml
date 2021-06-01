@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Finances</string>
-    <string name="add_revenue">Add revenue</string>
     <string name="add_expense">Add expense</string>
     <string name="update_revenue">Update revenue</string>
     <string name="update_expense">Update expense</string>
@@ -10,6 +9,6 @@
     <string name="revenue">Revenue</string>
     <string name="expense">Expense</string>
     <string name="summary">Summary</string>
-    <string name="month">Month</string>
-    <string name="year">Year</string>
+    <string name="add_revenue">Add revenue</string>
+    <string name="down_arrow">Down arrow</string>
 </resources>
